@@ -1,0 +1,16 @@
+{
+  "version": "0.0.0",
+  "name": "app",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "dripsy": "^3.6.0",
+    "moti": "latest",
+    "nativewind": "2.0.11",
+    "react-native-paper": "^5.5.2",
+    "solito": "3.0.0"
+  },
+  "sideEffects": false
+}
