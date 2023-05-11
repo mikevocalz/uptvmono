@@ -25,7 +25,9 @@
 
 [![View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
 
-<iframe style="width:100%; height: 100%" src="https://xd.adobe.com/embed/e353d703-4a88-425e-b42a-8e9eff4f36b3-b600" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="5017" src="https://xd.adobe.com/embed/e353d703-4a88-425e-b42a-8e9eff4f36b3-b600" frameborder="0"></iframe>
+
+<iframe width="100%" height="5017" src="https://xd.adobe.com/embed/e353d703-4a88-425e-b42a-8e9eff4f36b3-b600?fullscreen" frameborder="0"></iframe>
 
 ---
 
@@ -34,10 +36,6 @@
 ##### Image #1
 
 ![Image #1](https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/68de23170347715.645c3113ee8a9.jpg)
-
----
-
-### Launch Date: 10/10/2022
 
 ---
 
