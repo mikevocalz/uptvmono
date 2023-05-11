@@ -29,10 +29,10 @@ Monorepo of UPtv, writing once and building to three platforms (Web, IOs and And
 
 [[View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
 
-[![Final video of fixing issues in your code in VS Code]]
-(https://github.com/mikevocalz/uptvmono/blob/main/mobile-demo.mp4)
 
-![Mobile Demo Video](https://github.com/mikevocalz/uptvmono/blob/main/mobile-demo.mp4)
+[![Mobile Demo Video]
+(https://img.youtube.com/vi/80d8kKizmgI/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=80d8kKizmgI)
 
 ### **_Website Design_**
 
