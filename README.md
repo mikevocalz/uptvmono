@@ -30,9 +30,8 @@ Monorepo of UPtv, writing once and building to three platforms (Web, IOs and And
 [[View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
 
 
-[![Mobile Demo Video]
-(https://img.youtube.com/vi/80d8kKizmgI/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=80d8kKizmgI)
+[![Watch the Mobile Demo](https://img.youtube.com/vi/80d8kKizmgI/maxresdefault.jpg)](https://youtu.be/https://img.youtube.com/vi/80d8kKizmgI/maxresdefault.jpg)
+
 
 ### **_Website Design_**
 
