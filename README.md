@@ -35,10 +35,6 @@
 
 ![Image #1](https://www.pitchblackx.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain_mbl.862fa123.png&w=640&q=75)
 
-##### Image #2
-
-![Image #2](https://www.pitchblackx.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fport_big.eb0c64d4.png&w=2048&q=75)
-
 ---
 
 ### Launch Date: 10/10/2022
