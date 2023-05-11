@@ -72,20 +72,28 @@ Monorepo of UPtv, writing once and building to three platforms (Web, IOs and And
 
 ---
 
+### **_Instructions:_**
+
+To Run on web locally. First install node modules: "npm install or yarn". Once installed Run command "yarn web" and "http://localhost:3000" in your browser.
+
+To change any code/pages, it can be edited in the "packages/app/features" directory.
+
+## The app is
+
 ### **_Resources:_**
 
-##### NextJS [Docs:](https://nextjs.org/docs)
+##### NextJS [Next Docs:](https://nextjs.org/docs)
 
-##### Solito [Docs:](https://nextjs.org/docs)
+##### Solito [Solito Docs:](https://nextjs.org/docs)
 
-##### Expo [Docs:](https://docs.expo.dev/)
+##### Expo [Expo Docs:](https://docs.expo.dev/)
 
-##### Expo Router [Docs:](https://expo.github.io/router/docs/)
+##### Expo Router [Expo Router Docs:](https://expo.github.io/router/docs/)
 
-##### Tailwind CSS [Docs:](https://tailwindcss.com/docs/installation)
+##### Tailwind CSS [Tailwind CSS Docs:](https://tailwindcss.com/docs/installation)
 
-##### React Native [Docs:](https://reactnative.dev)
+##### React Native [React Native Docs:](https://reactnative.dev)
 
-##### React Native Paper [Docs:](https://callstack.github.io/react-native-paper/docs/guides/getting-started/)
+##### React Native Paper [React Native PaperDocs:](https://callstack.github.io/react-native-paper/docs/guides/getting-started/)
 
-##### MDN Sheet [Docs:](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+##### MDN Sheet [MDN Cheat Sheet:](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)

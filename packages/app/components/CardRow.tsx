@@ -48,11 +48,10 @@ const CardRow: FC<any> = ({ cardData, title }: CardRowProps) => {
 
         style={{
           //width: width,
-          flexGrow: 1,
-          height: 300
+
         }}
         contentContainerStyle={{
-          paddingTop: 16,
+
           paddingBottom: 20,
           paddingHorizontal: 20,
         }}

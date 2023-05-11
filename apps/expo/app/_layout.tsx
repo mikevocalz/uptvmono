@@ -5,7 +5,7 @@ import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native
 import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
-import { useColorScheme } from 'react-native';
+import { LogBox, useColorScheme } from 'react-native';
 import { Asset } from 'expo-asset';
 
 import {
@@ -24,6 +24,8 @@ export const unstable_settings = {
 };
 
 export default function RootLayout() {
+
+  LogBox.ignoreAllLogs();
 
   const loadResourcesAsync = async () => {
     await Promise.all([
