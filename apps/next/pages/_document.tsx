@@ -6,20 +6,22 @@ import type { DocumentContext } from 'next/document'
 import * as React from 'react'
 import { AppRegistry } from 'react-native'
 
-import EntypoFont from '../public/fonts/Entypo.ttf'
-import AntDesignFont from '../public/fonts/AntDesign.ttf'
-import EvilIconsFont from '../public/fonts/EvilIcons.ttf'
-import FeatherFont from '../public/fonts/Feather.ttf'
-import FontAwesomeFont from '../public/fonts/FontAwesome.ttf'
-import FontistoFont from '../public/fonts/Fontisto.ttf'
-import FoundationFont from '../public/fonts/Foundation.ttf'
-import IoniconsFont from '../public/fonts/Ionicons.ttf'
-import MaterialCommunityIconsFont from '../public/fonts/MaterialCommunityIcons.ttf'
-import MaterialIconsFont from '../public/fonts/MaterialIcons.ttf'
-import OcticonsFont from '../public/fonts/Octicons.ttf'
-import SimpleLineIconsFont from '../public/fonts/SimpleLineIcons.ttf'
-import ZocialFont from '../public/fonts/Zocial.ttf'
 
+const fonts = [
+  "EntypoFont", "AntDesignFont", "EvilIconsFont", "FeatherFont", "FontAwesomeFont",
+  "FoundationFont", "IoniconsFont", "MaterialCommunityIconsFont", "MaterialIconsFont",
+  "OcticonsFont", "SimpleLineIconsFont", "ZocialFont"
+]
+const customFontCss = fonts
+  .map(
+    (font) => `
+    @font-face {
+        font-family: '${font}';
+        src: url('/fonts/${font}.otf');
+    }
+`
+  )
+  .join('\n')
 export const style = `
 /**
  * Building on the RNWeb reset:
@@ -58,58 +60,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: scrollbar;
 }
-@font-face {
-  src: url(${EntypoFont});
-  font-family: Entypo;
-}
-@font-face {
-  src: url(${EvilIconsFont});
-  font-family: EvilIcons;
-}
-@font-face {
-  src: url(${FontAwesomeFont});
-  font-family: FontAwesome;
-}
-@font-face {
-  src: url(${FeatherFont});
-  font-family: Feather;
-}
-@font-face {
-  src: url(${IoniconsFont});
-  font-family: Ionicons;
-}
-@font-face {
-  src: url(${FoundationFont});
-  font-family: Foundation;
-}
-@font-face {
-  src: url(${MaterialIconsFont});
-  font-family: MaterialIcons;
-}
-@font-face {
-  src: url(${MaterialCommunityIconsFont});
-  font-family: MaterialCommunityIcons;
-}
-@font-face {
-  src: url(${ZocialFont});
-  font-family: Zocial;
-}
-@font-face {
-  src: url(${SimpleLineIconsFont});
-  font-family: SimpleLineIcons;
-}
-@font-face {
-  src: url(${OcticonsFont});
-  font-family: Octicons;
-}
-@font-face {
-  src: url(${FontistoFont});
-  font-family: Fontisto;
-}
-@font-face {
-  src: url(${AntDesignFont});
-  font-family: AntDesign;
-}
+${customFontCss}
 `
 
 class Document extends NextDocument {
