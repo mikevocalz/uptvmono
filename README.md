@@ -7,7 +7,7 @@
 
 ### **_Description_**:
 
-#### UPtv, the television home for uplifting entertainment, is one of the premier brands from UP Entertainment, LLC. UPtv is the destination for exclusive premiere movies, box-office hit films and beloved series. UPtv’s award-winning pro-social initiative, “UPlift Someone,” has inspired over 200 million people to uplift others through its social videos and dedicated UPlift Someone Facebook page. Additionally, UP Entertainment is home to the subscription streaming service, UP Faith & Family, America’s favorite streaming service for families, as well as AspireTV, the leading network for Black and urban lifestyle programming.
+UPtv, the television home for uplifting entertainment, is one of the premier brands from UP Entertainment, LLC. UPtv is the destination for exclusive premiere movies, box-office hit films and beloved series. UPtv’s award-winning pro-social initiative, “UPlift Someone,” has inspired over 200 million people to uplift others through its social videos and dedicated UPlift Someone Facebook page. Additionally, UP Entertainment is home to the subscription streaming service, UP Faith & Family, America’s favorite streaming service for families, as well as AspireTV, the leading network for Black and urban lifestyle programming.
 
 ---
 
