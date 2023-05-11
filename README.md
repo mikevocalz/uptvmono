@@ -23,11 +23,11 @@
 
 ### **_Demo_**
 
-[![View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
+[[View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
 
-<iframe width="100%" height="5017" src="https://xd.adobe.com/embed/e353d703-4a88-425e-b42a-8e9eff4f36b3-b600" frameborder="0"></iframe>
+### **_Design_**
 
-<iframe width="100%" height="5017" src="https://xd.adobe.com/embed/e353d703-4a88-425e-b42a-8e9eff4f36b3-b600?fullscreen" frameborder="0"></iframe>
+[UPtv Design Link:](https://www.behance.net/gallery/170347715/UPtv-Redesign)
 
 ---
 
