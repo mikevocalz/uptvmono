@@ -21,6 +21,10 @@
 
 ---
 
+### **_Developement_**:
+
+### Monorepo of UPtv, writing once and building to three platforms (Web, IOs and Android). Created an web and mobile app using Expo (EAS Build) and Solito to have a cross platform apps. Solito is a navigation wrapper around Next.js that allows you to share navigation across all platforms where you can build web and mobile applications.
+
 ### **_Demo_**
 
 [[View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
