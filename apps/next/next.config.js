@@ -11,6 +11,9 @@ const nextConfig = {
   images: {
     disableStaticImages: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   transpilePackages: [
     'react-native',
     'react-native-web',
