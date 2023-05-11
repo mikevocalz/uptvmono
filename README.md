@@ -25,7 +25,7 @@
 
 [[View the Web Demo]](https://uptvmono-next-git-main-mikefacesny.vercel.app/movies)
 
-### **_Design_**
+### **_Website Design_**
 
 [UPtv Design Link:](https://www.behance.net/gallery/170347715/UPtv-Redesign)
 
