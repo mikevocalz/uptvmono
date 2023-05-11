@@ -31,7 +31,7 @@ Monorepo of UPtv, writing once and building to three platforms (Web, IOs and And
 
 ### **_Website Design_**
 
-[UPtv Design Link:](https://www.behance.net/gallery/170347715/UPtv-Redesign)
+[[UPtv Design Link:]](https://www.behance.net/gallery/170347715/UPtv-Redesign)
 
 ---
 
