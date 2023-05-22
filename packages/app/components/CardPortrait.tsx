@@ -47,4 +47,6 @@ const CartPortait: FC<any> = ({ cardData }) => {
   )
 }
 
+
+
 export default CartPortait
