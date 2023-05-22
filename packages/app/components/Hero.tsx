@@ -62,16 +62,18 @@ const Hero: FC<any> = ({ images }) => {
       renderItem={({ item, index }: any) => {
 
         return (
-          <View className=' bg-red-500 max-w-[1280px] max-h-[800px] overflow-hidden'>
+          <View className='relative aspect-video object-contain w-full h-full max-h-500  max-w-900 bg-red-500 overflow-hidden'>
 
             <Image
               unoptimized
+              fill
+              className='max-h-500  max-w-900 faspect-video'
               alt={`${item.title}`}
               src={item.imgUrl}
               contentPosition={{ top: 0, right: '50%', }}
               resizeMode="cover"
-              width={width}
-              height={imageHeight}
+              //width={width}
+              //height={imageHeight}
               style={{
 
               }}

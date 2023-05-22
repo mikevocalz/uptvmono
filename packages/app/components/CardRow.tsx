@@ -38,22 +38,26 @@ const CardRow: FC<any> = ({ cardData, title }: CardRowProps) => {
       <Text className="my-8 ml-0 text-2xl font-black text-white ">{title}</Text>
 
       <FlashList
+        //contentInsetAdjustmentBehavior="automatic"
         scrollEventThrottle={20}
-        horizontal
-        scrollEnabled
-        nestedScrollEnabled
+        horizontal={true}
+        scrollEnabled={true}
         showsHorizontalScrollIndicator={false}
         data={cardData}
-        estimatedItemSize={100}
+
+        estimatedItemSize={10}
 
         style={{
-          //width: width,
 
+          paddingBottom: 30,
+          maxHeight: 400,
+          width: '100%'
         }}
         contentContainerStyle={{
-
-          paddingBottom: 20,
+          paddingTop: 30,
+          paddingBottom: 30,
           paddingHorizontal: 20,
+
         }}
         ItemSeparatorComponent={() => <View className="w-8" />}
         keyExtractor={(item: any, index: any) => item.id}

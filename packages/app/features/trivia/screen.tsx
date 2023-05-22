@@ -14,7 +14,6 @@ import {
   removeOrientationListener as rol
 } from 'react-native-responsive-screen';
 
-import star from '../../../../apps/expo/assets/images/star.png'
 
 export function TriviaScreen() {
   const { width, height } = useWindowDimensions();
@@ -34,29 +33,10 @@ export function TriviaScreen() {
         justifyContent: 'center'
       }}
       className={` ${!isWeb ? 'bg-slate-600' : 'bg-transparent'} h-[100%] min-w-screen w-full `}>
-      <View className='bg-slate-900 rounded-3xl shadow-xl items-center justify-center'
-        style={{
-          flexShrink: 1,
-          aspectRatio: 4 / 3,
-          paddingHorizontal: wp(10),
-          paddingVertical: wp(20)
-        }}>
-        <Card.Content>
-          <Text className='text-white text-3xl text-center font-bold'>There is No Watch Party at the Moment</Text>
-          <Text className='text-white text-xl text-center font-bold'>As soon as one starts you will be notified</Text>
-        </Card.Content>
-        <View className='absolute right-4 bottom-0'>
-          <Image
-            alt='star'
-            resizeMode='contain'
-            style={{
-              height: 60,
-              width: 60,
-            }}
-            source={star}
-          />
-        </View>
-      </View>
+
+      <Text className='text-white text-3xl text-center font-bold'>There is No Watch Party at the Moment</Text>
+
+
     </ScrollView>
   )
 }

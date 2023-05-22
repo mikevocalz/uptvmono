@@ -10,6 +10,9 @@ const nextConfig = {
   reactStrictMode: false,
   images: {
     disableStaticImages: true,
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   typescript: {
     ignoreBuildErrors: true,

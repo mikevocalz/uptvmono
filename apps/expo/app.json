@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "UPtv-mono",
-    "slug": "UPtv-mono",
+    "name": "Dominique Ebron",
+    "slug": "dominiqueebron",
     "version": "1.0.0",
-    "scheme": "solito-nativewind",
+    "scheme": "dominiqueebron",
     "platforms": ["ios", "android"],
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -19,14 +19,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.solito.uptv"
+      "bundleIdentifier": "com.solito.dominiqueebron/"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0f172a"
       },
-      "package": "com.solito.uptv"
+      "package": "com.solito.dominiqueebron"
     },
     "plugins": [
       [

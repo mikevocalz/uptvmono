@@ -21,13 +21,13 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
   return (
     <>
       <Head>
-        <title>UPtv - Watch Uplifting Movies and TV Shows</title>
-        <meta name="description" content="UPtv is the television home for uplifting entertainment featuring exclusive premiere movies and beloved hit series." />
+        <title>Dominique Ebron</title>
+        <meta name="description" content="Dominique Ebron Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Provider>
         <NextNprogress
-          color={'#00ff22'}
+          color={'#3f88c5'}
           startPosition={0.3}
           stopDelayMs={200}
           height={4}

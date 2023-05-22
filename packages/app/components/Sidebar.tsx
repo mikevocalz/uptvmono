@@ -38,17 +38,23 @@ const SideBar: FC<any> = (props) => {
       )}
 
       <View
-        className={`top-0 shadow-3xl right-0 w-[50vw] bg-slate-600  p-10 px-2 pt-[130px] text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
+        className={`top-0 shadow-3xl right-0 w-[50vw] bg-[#6b9d97]  p-10 px-2 pt-[130px] text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
           }`}
       >
         <Drawer.Section
           style={{
-            width: '45vw'
+            width: '45vw',
+            gap: 8,
+
           }}
           showDivider={false}>
           <Drawer.Item
             label="Shows"
             active={active === 'first'}
+            style={{
+              backgroundColor: active === 'first' ? '#136f63' : '',
+              paddingLeft: 20
+            }}
             onPress={() => {
               setActive('first');
               setShowSidebar(!showSidebar)
@@ -58,44 +64,42 @@ const SideBar: FC<any> = (props) => {
             label="Movies"
             active={active === 'second'}
             onPress={() => setActive('second')}
+            style={{
+              backgroundColor: active === 'second' ? '#136f63' : '',
+              paddingLeft: 20
+            }}
           />
           <Drawer.Item
             label="Schedule"
             active={active === 'third'}
             onPress={() => setActive('third')}
+            style={{
+              backgroundColor: active === 'third' ? '#136f63' : '',
+              paddingLeft: 20
+            }}
           />
           <Drawer.Item
             label="Find UPtv"
             active={active === 'fourth'}
             onPress={() => setActive('fourth')}
+            style={{
+              backgroundColor: active === 'fourth' ? '#136f63' : '',
+              paddingLeft: 20
+            }}
           />
           <Drawer.Item
             label="UPLift Someone"
             active={active === 'fifth'}
             onPress={() => setActive('fifth')}
+            style={{
+              backgroundColor: active === 'fifth' ? '#136f63' : '',
+              paddingLeft: 20
+            }}
           />
-          <Drawer.Item
-            label="Up Faith & Family"
-            active={active === 'sixth'}
-            onPress={() => setActive('sixth')}
-          />
+
         </Drawer.Section>
 
-        <Image
-          unoptimized
-          src={'https://tpc.googlesyndication.com/simgad/1208872392748954886'}
-          alt="ad Photo"
-          resizeMode='contain'
-          width={500}
-          height={240}
-          style={{
-            flex: 1,
-            alignSelf: 'center',
-            width: 500,
-            height: 200,
-            marginTop: 300
-          }}
-        />
+
       </View>
     </>
   )

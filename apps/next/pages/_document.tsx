@@ -10,14 +10,15 @@ import { AppRegistry } from 'react-native'
 const fonts = [
   "EntypoFont", "AntDesignFont", "EvilIconsFont", "FeatherFont", "FontAwesomeFont",
   "FoundationFont", "IoniconsFont", "MaterialCommunityIconsFont", "MaterialIconsFont",
-  "OcticonsFont", "SimpleLineIconsFont", "ZocialFont"
+  "OcticonsFont", "SimpleLineIconsFont", "ZocialFont", "MaterialIcons"
 ]
+
 const customFontCss = fonts
   .map(
     (font) => `
     @font-face {
         font-family: '${font}';
-        src: url('/fonts/${font}.otf');
+        src: url('/fonts/${font}.ttf');
     }
 `
   )
@@ -65,6 +66,18 @@ ${customFontCss}
 
 class Document extends NextDocument {
   static async getInitialProps(ctx: DocumentContext) {
+    const originalRenderPage = ctx.renderPage;
+
+    // Run the React rendering logic synchronously
+    ctx.renderPage = () =>
+      originalRenderPage({
+        // Useful for wrapping the whole react tree
+        enhanceApp: (App) => App,
+        // Useful for wrapping in a per-page basis
+        enhanceComponent: (Component) => Component,
+      });
+
+
     AppRegistry.registerComponent('Main', () => Main)
     // @ts-ignore
     const { getStyleElement } = AppRegistry.getApplication('Main')
@@ -83,7 +96,7 @@ class Document extends NextDocument {
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         </Head>
-        <body className="scrollbar-thin scrollbar-thumb-[#155fce] scrollbar-track-[#1140AC] scrollbar-thumb-rounded-full scrollbar-track-rounded-full h-32 overflow-y-scroll bg-gradient-to-r from-gray-700 to-slate-800">
+        <body className="scrollbar-thin scrollbar-thumb-[#136f63] scrollbar-track-[#6b9d97] scrollbar-thumb-rounded-full scrollbar-track-rounded-full h-32 overflow-y-scroll bg-gradient-to-r from-gray-300 to-[#c7dedc]">
           <Main />
           <NextScript />
         </body>

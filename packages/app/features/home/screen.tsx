@@ -5,7 +5,7 @@ import { View } from 'app/design/view'
 import { MotiLink } from 'solito/moti'
 import Hero from 'app/components/Hero'
 import { ScrollView, Image } from 'app/design/TailwindComponents'
-import { Platform, useWindowDimensions } from 'react-native'
+import { Platform, useWindowDimensions, StyleSheet } from 'react-native'
 
 import CardRow from 'app/components/CardRow'
 import CardPortraitRow from 'app/components/CardRow copy'
@@ -15,7 +15,6 @@ import { Chip } from 'react-native-paper';
 const isWeb = Platform.OS === 'web'
 import { cardData, images, upcoming, upcomingRev } from 'app/store/data'
 
-import img from '../../../../apps/expo/assets/images/ad.png'
 
 
 export function HomeScreen() {
@@ -26,13 +25,14 @@ export function HomeScreen() {
   return (
     <ScrollView
       showsHorizontalScrollIndicator={false}
-      contentContainerStyle={{
-        width: width,
-        alignItems: 'center',
-        paddingBottom: 200
-      }}
-      className={` ${!isWeb ? 'bg-slate-600' : 'bg-transparent'} flex-1  max-w-7xl min-h-screen min-w-screen `}>
+      contentInsetAdjustmentBehavior='always'
+      nestedScrollEnabled
+      scrollEnabled
+      style={styles.scrollView}
+      contentContainerStyle={styles.contentContainer}
+      className={` ${!isWeb ? 'bg-slate-600' : 'bg-transparent'} flex-1  max-w-7xl  min-w-screen `}>
 
+<<<<<<< HEAD
       <Hero images={images} />
       <View style={{ width: width }}
         className='px-2  overflow-visible'>
@@ -57,13 +57,28 @@ export function HomeScreen() {
         }
 
         <CardPortraitRow title='Upcoming Movies' cardData={upcoming} />
-
         <CardPortraitRow title='Featured Movies' cardData={upcomingRev} />
 
 
       </View>
+=======
+      <Text>Home</Text>
+>>>>>>> eea135f384e1fee03fb0ff28ae2b7d704881b5b6
 
 
     </ScrollView >
   )
 }
+
+
+const styles = StyleSheet.create({
+
+  scrollView: {
+    height: '100%',
+    width: '100%',
+  },
+  contentContainer: {
+    alignItems: 'center',
+    paddingBottom: 200
+  }
+})
