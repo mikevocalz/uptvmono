@@ -32,7 +32,6 @@ export function HomeScreen() {
       contentContainerStyle={styles.contentContainer}
       className={` ${!isWeb ? 'bg-slate-600' : 'bg-transparent'} flex-1  max-w-7xl  min-w-screen `}>
 
-<<<<<<< HEAD
       <Hero images={images} />
       <View style={{ width: width }}
         className='px-2  overflow-visible'>
@@ -61,9 +60,6 @@ export function HomeScreen() {
 
 
       </View>
-=======
-      <Text>Home</Text>
->>>>>>> eea135f384e1fee03fb0ff28ae2b7d704881b5b6
 
 
     </ScrollView >
